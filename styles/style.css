@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.link {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  background: transparent;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%) translate(var(--x, 0), var(--y, 0));
+  z-index: 9999;
+}
